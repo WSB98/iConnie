@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="bkr_studio">
+    <meta name="description" content="customize pictures with css">
+    <link rel="stylesheet" type="text/css" href="global.css">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <title>iConnie</title>
+</head>
+<body>
+    <div id="editor">
+
+        <div id="controls">
+          <label for="border-radius">Border Radius:</label>
+            <input type="range" id="border-radius" min="0" max="300">
+          <label for="vignette">Vignette:</label>
+            <input type="range" id="vignette" min="0" max="100">
+          <label for="edge-blur">Edge Blur:</label>
+            <input type="range" id="edge-blur" min="0" max="100">
+        </div>
+
+        <div id="exportZone">
+            <div id="dropzone">
+                <p>Drag and drop an image here</p>
+            </div>
+        </div>
+
+        <button id="export-btn">Export Image</button>
+
+      </div>
+</body>
+
+<script src="main.js"></script>
+</html>

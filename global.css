@@ -1,0 +1,42 @@
+#editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #dropzone {
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: visible;
+    z-index: 5;
+    padding: 2px;
+  }
+  
+  #dropzone p {
+    margin: 0;
+  }
+  
+  #controls {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+  #export-btn {
+    margin-top: 75px;
+  }
+
+  #exportZone {
+    padding: 40px;
+  }
